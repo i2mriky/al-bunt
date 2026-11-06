@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="noindex">
+<title>البنط · بيت حجازي في جدة البلد</title>
+<meta name="description" content="Concept by Nour Mohamed (NM*). ٧ غرف، كل غرفة باسمها. احجز الغرفة، مو نوع الغرفة.">
+<meta name="theme-color" content="#40617A">
+<meta property="og:title" content="البنط · احجز الغرفة، مو نوع الغرفة">
+<meta property="og:description" content="Concept by NM* · بيت حجازي في جدة البلد، ٧ غرف كل غرفة باسمها، والحجز مباشر على الواتساب.">
+<meta property="og:image" content="https://i2mriky.github.io/al-bunt/assets/og.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/readex-pro-arabic-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css?v=1">
+</head>
+<body>
+
+<a class="concept" href="https://i2mriky.github.io/bio-hub/">
+  <span class="concept-tag">Concept</span>
+  <span>مشروع تصوّري من <b>NM*</b> · مو فندق حقيقي</span>
+  <span class="concept-go" aria-hidden="true">←</span>
+</a>
+
+<header class="hero">
+  <picture>
+    <source media="(min-width: 700px)" srcset="assets/img/facade-1080.webp">
+    <img class="hero-img" src="assets/img/facade-720.webp" alt="واجهة البنط: بيت من حجر المنقبي برواشين زرقا وباب مقوّس" width="720" height="964" fetchpriority="high">
+  </picture>
+  <div class="hero-in">
+    <img class="hero-logo" src="assets/logo-full-white.svg" alt="البنط · Al Bunt Jeddah" width="180" height="180">
+    <h1>احجز الغرفة،<br>مو نوع الغرفة.</h1>
+    <p>بيت حجازي من حجر المنقبي في حارة البحر بجدة البلد. سبع غرف، كل غرفة باسمها وروشانها، وتحجزها مع صاحب البيت مباشرة.</p>
+    <a class="btn btn-light" href="#rooms">اختار غرفتك</a>
+  </div>
+</header>
+
+<main>
+
+<section class="rooms" id="rooms" aria-labelledby="rooms-h">
+  <div class="wrap">
+    <p class="kicker">الغرف السبع</p>
+    <h2 id="rooms-h">كل غرفة لها اسم وشبّاك.</h2>
+    <p class="lead">اضغط على الغرفة، ويفتح لك الواتساب واسمها مكتوب في الرسالة.</p>
+
+    <form class="when" id="when" aria-label="تفاصيل الحجز (اختياري)">
+      <label class="f f-date">
+        <span>الوصول</span>
+        <input type="date" id="f-date" name="date">
+      </label>
+      <div class="f">
+        <span id="n-l">الليالي</span>
+        <div class="step" role="group" aria-labelledby="n-l">
+          <button type="button" data-step="nights" data-d="-1" aria-label="ليلة أقل">−</button>
+          <output id="f-nights" aria-live="polite">٢</output>
+          <button type="button" data-step="nights" data-d="1" aria-label="ليلة زيادة">+</button>
+        </div>
+      </div>
+      <div class="f">
+        <span id="g-l">الضيوف</span>
+        <div class="step" role="group" aria-labelledby="g-l">
+          <button type="button" data-step="guests" data-d="-1" aria-label="ضيف أقل">−</button>
+          <output id="f-guests" aria-live="polite">٢</output>
+          <button type="button" data-step="guests" data-d="1" aria-label="ضيف زيادة">+</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="rooms-grid">
+      <svg class="house" viewBox="0 0 360 400" role="img" aria-labelledby="house-t">
+        <title id="house-t">البيت من جوّا: ٤ أدوار و٧ غرف</title>
+        <g class="h-line">
+          <path d="M60 52 V380 H340 V52"/>
+          <path d="M60 52 h280" />
+          <path d="M60 52 v-14 h14 v14 M94 52 v-14 h14 v14 M128 52 v-14 h14 v14 M162 52 v-14 h14 v14 M196 52 v-14 h14 v14 M230 52 v-14 h14 v14 M264 52 v-14 h14 v14 M298 52 v-14 h14 v14 M326 52 v-14 h14 v14"/>
+          <path class="h-thin" d="M60 108 H340 M60 190 H340 M60 272 H340 M60 324 H340"/>
+          <path d="M108 380 v-34 a16 16 0 0 1 32 0 v34"/>
+          <g class="h-roshan">
+            <rect x="32" y="128" width="28" height="44"/><rect x="32" y="210" width="28" height="44"/><rect x="32" y="290" width="28" height="30" />
+          </g>
+          <path class="h-thin" d="M32 135 h28"/><path class="h-thin" d="M32 142 h28"/><path class="h-thin" d="M32 149 h28"/><path class="h-thin" d="M32 156 h28"/><path class="h-thin" d="M32 163 h28"/><path class="h-thin" d="M32 170 h28"/><path class="h-thin" d="M32 217 h28"/><path class="h-thin" d="M32 224 h28"/><path class="h-thin" d="M32 231 h28"/><path class="h-thin" d="M32 238 h28"/><path class="h-thin" d="M32 245 h28"/><path class="h-thin" d="M32 252 h28"/><path class="h-thin" d="M32 297 h28"/><path class="h-thin" d="M32 304 h28"/><path class="h-thin" d="M32 311 h28"/><path class="h-thin" d="M32 318 h28"/>
+        </g>
+        <text class="h-floor" x="330" y="86">السطوح</text>
+        <text class="h-fl" x="330" y="155">الدور ٣</text>
+        <text class="h-fl" x="330" y="237">الدور ٢</text>
+        <text class="h-fl" x="330" y="303">الدور ١</text>
+        <text class="h-fl" x="330" y="358">الأرضي</text>
+        <a href="#room-bahr" data-room="bahr"><text class="h-room" x="246" y="155">البحر</text></a>
+        <a href="#room-noura" data-room="noura"><text class="h-room" x="168" y="155">النورة</text></a>
+        <text class="h-sp" x="96" y="155">المقعد</text>
+        <a href="#room-qamariya" data-room="qamariya"><text class="h-room" x="244" y="237">القمرية</text></a>
+        <a href="#room-sharbah" data-room="sharbah"><text class="h-room" x="166" y="237">الشربة</text></a>
+        <a href="#room-full" data-room="full"><text class="h-room" x="100" y="237">الفلّ</text></a>
+        <a href="#room-mirkaz" data-room="mirkaz"><text class="h-room" x="240" y="303">المركاز</text></a>
+        <a href="#room-dana" data-room="dana"><text class="h-room" x="160" y="303">الدانة</text></a>
+        <text class="h-sp" x="230" y="358">الدهليز</text>
+      </svg>
+
+      <ul class="room-list" id="room-list">
+        <li class="room" id="room-bahr" data-name="البحر" data-cap="2">
+          <a class="room-a" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B1%D9%81%D8%A9%20%C2%AB%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%C2%BB%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7.%0A%D9%84%D9%8A%D9%84%D8%AA%D9%8A%D9%86%20%C2%B7%20%D8%B4%D8%AE%D8%B5%D9%8A%D9%86" rel="noopener" target="_blank">
+            <img class="room-card" src="assets/img/card-bahr.webp" alt="" width="162" height="257" loading="lazy">
+            <span class="room-body">
+              <span class="room-fl">الدور ٣ · لشخصين</span>
+              <span class="room-name">البحر</span>
+              <span class="room-line">روشانها يطل على البحر، وآخر شمس توصل لين السرير.</span>
+              <span class="room-go"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .6.6 1 1.4 1.8 2.5 2.4.3.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.3 1.3-.9 1.6-.6.3-1.4.4-3-.3-2-.9-3.4-2.6-3.9-3.5-.5-.9-.6-1.7-.4-2.3Z"/></svg>احجز البحر</span>
+            </span>
+          </a>
+        </li>
+        <li class="room" id="room-noura" data-name="النورة" data-cap="2">
+          <a class="room-a" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B1%D9%81%D8%A9%20%C2%AB%D8%A7%D9%84%D9%86%D9%88%D8%B1%D8%A9%C2%BB%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7.%0A%D9%84%D9%8A%D9%84%D8%AA%D9%8A%D9%86%20%C2%B7%20%D8%B4%D8%AE%D8%B5%D9%8A%D9%86" rel="noopener" target="_blank">
+            <img class="room-card" src="assets/img/card-noura.webp" alt="" width="162" height="257" loading="lazy">
+            <span class="room-body">
+              <span class="room-fl">الدور ٣ · لشخصين</span>
+              <span class="room-name">النورة</span>
+              <span class="room-line">جدرانها نورة بيضا وسقفها عالي. أهدى غرفة في البيت.</span>
+              <span class="room-go"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .6.6 1 1.4 1.8 2.5 2.4.3.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.3 1.3-.9 1.6-.6.3-1.4.4-3-.3-2-.9-3.4-2.6-3.9-3.5-.5-.9-.6-1.7-.4-2.3Z"/></svg>احجز النورة</span>
+            </span>
+          </a>
+        </li>
+        <li class="room" id="room-qamariya" data-name="القمرية" data-cap="2">
+          <a class="room-a" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B1%D9%81%D8%A9%20%C2%AB%D8%A7%D9%84%D9%82%D9%85%D8%B1%D9%8A%D8%A9%C2%BB%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7.%0A%D9%84%D9%8A%D9%84%D8%AA%D9%8A%D9%86%20%C2%B7%20%D8%B4%D8%AE%D8%B5%D9%8A%D9%86" rel="noopener" target="_blank">
+            <img class="room-card" src="assets/img/card-qamariya.webp" alt="" width="162" height="257" loading="lazy">
+            <span class="room-body">
+              <span class="room-fl">الدور ٢ · لشخصين</span>
+              <span class="room-name">القمرية</span>
+              <span class="room-line">فوق روشانها قمرية ملوّنة، تدخّل ضي القمر بالليل.</span>
+              <span class="room-go"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .6.6 1 1.4 1.8 2.5 2.4.3.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.3 1.3-.9 1.6-.6.3-1.4.4-3-.3-2-.9-3.4-2.6-3.9-3.5-.5-.9-.6-1.7-.4-2.3Z"/></svg>احجز القمرية</span>
+            </span>
+          </a>
+        </li>
+        <li class="room" id="room-sharbah" data-name="الشربة" data-cap="2">
+          <a class="room-a" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B1%D9%81%D8%A9%20%C2%AB%D8%A7%D9%84%D8%B4%D8%B1%D8%A8%D8%A9%C2%BB%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7.%0A%D9%84%D9%8A%D9%84%D8%AA%D9%8A%D9%86%20%C2%B7%20%D8%B4%D8%AE%D8%B5%D9%8A%D9%86" rel="noopener" target="_blank">
+            <img class="room-card" src="assets/img/card-sharbah.webp" alt="" width="162" height="257" loading="lazy">
+            <span class="room-body">
+              <span class="room-fl">الدور ٢ · لشخصين</span>
+              <span class="room-name">الشربة</span>
+              <span class="room-line">روشانها على هوا البحر، أبرد غرفة وقت الظهر.</span>
+              <span class="room-go"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .6.6 1 1.4 1.8 2.5 2.4.3.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.3 1.3-.9 1.6-.6.3-1.4.4-3-.3-2-.9-3.4-2.6-3.9-3.5-.5-.9-.6-1.7-.4-2.3Z"/></svg>احجز الشربة</span>
+            </span>
+          </a>
+        </li>
+        <li class="room" id="room-full" data-name="الفلّ" data-cap="2">
+          <a class="room-a" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B1%D9%81%D8%A9%20%C2%AB%D8%A7%D9%84%D9%81%D9%84%D9%91%C2%BB%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7.%0A%D9%84%D9%8A%D9%84%D8%AA%D9%8A%D9%86%20%C2%B7%20%D8%B4%D8%AE%D8%B5%D9%8A%D9%86" rel="noopener" target="_blank">
+            <img class="room-card" src="assets/img/card-full.webp" alt="" width="162" height="257" loading="lazy">
+            <span class="room-body">
+              <span class="room-fl">الدور ٢ · لشخصين</span>
+              <span class="room-name">الفلّ</span>
+              <span class="room-line">تطل على الدرب، وريحة الفل في الحارة توصلها العصر.</span>
+              <span class="room-go"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .6.6 1 1.4 1.8 2.5 2.4.3.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.3 1.3-.9 1.6-.6.3-1.4.4-3-.3-2-.9-3.4-2.6-3.9-3.5-.5-.9-.6-1.7-.4-2.3Z"/></svg>احجز الفلّ</span>
+            </span>
+          </a>
+        </li>
+        <li class="room" id="room-mirkaz" data-name="المركاز" data-cap="2">
+          <a class="room-a" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B1%D9%81%D8%A9%20%C2%AB%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%A7%D8%B2%C2%BB%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7.%0A%D9%84%D9%8A%D9%84%D8%AA%D9%8A%D9%86%20%C2%B7%20%D8%B4%D8%AE%D8%B5%D9%8A%D9%86" rel="noopener" target="_blank">
+            <img class="room-card" src="assets/img/card-mirkaz.webp" alt="" width="162" height="257" loading="lazy">
+            <span class="room-body">
+              <span class="room-fl">الدور ١ · لشخصين</span>
+              <span class="room-name">المركاز</span>
+              <span class="room-line">على الحارة، تسمع البلد وهي تصحى. أقرب غرفة للدرج.</span>
+              <span class="room-go"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .6.6 1 1.4 1.8 2.5 2.4.3.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.3 1.3-.9 1.6-.6.3-1.4.4-3-.3-2-.9-3.4-2.6-3.9-3.5-.5-.9-.6-1.7-.4-2.3Z"/></svg>احجز المركاز</span>
+            </span>
+          </a>
+        </li>
+        <li class="room" id="room-dana" data-name="الدانة" data-cap="3">
+          <a class="room-a" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%A3%D8%A8%D8%BA%D9%89%20%D8%A3%D8%AD%D8%AC%D8%B2%20%D8%BA%D8%B1%D9%81%D8%A9%20%C2%AB%D8%A7%D9%84%D8%AF%D8%A7%D9%86%D8%A9%C2%BB%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7.%0A%D9%84%D9%8A%D9%84%D8%AA%D9%8A%D9%86%20%C2%B7%20%D8%B4%D8%AE%D8%B5%D9%8A%D9%86" rel="noopener" target="_blank">
+            <img class="room-card" src="assets/img/card-dana.webp" alt="" width="162" height="257" loading="lazy">
+            <span class="room-body">
+              <span class="room-fl">الدور ١ · لثلاثة</span>
+              <span class="room-name">الدانة</span>
+              <span class="room-line">أوسع غرفة في البيت، سرير وكنبة. تناسب العائلة.</span>
+              <span class="room-go"><svg class="wa" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M8.6 8.2c.2-.5.5-.5.8-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.1-.2.3 0 .6.6 1 1.4 1.8 2.5 2.4.3.1.4.1.6-.1l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.3 1.3-.9 1.6-.6.3-1.4.4-3-.3-2-.9-3.4-2.6-3.9-3.5-.5-.9-.6-1.7-.4-2.3Z"/></svg>احجز الدانة</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="why" aria-labelledby="why-h">
+  <div class="wrap">
+    <p class="kicker">ليش مباشرة؟</p>
+    <h2 id="why-h">نفس السعر.<br>الفرق في البيت.</h2>
+    <ul class="why-list">
+      <li>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 42V20a12 12 0 0 1 24 0v22"/><path d="M8 42h32"/></svg>
+        <div><b>تختار غرفتك باسمها</b><span>في المواقع تحجز «دبل ديلوكس». هنا تحجز البحر.</span></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 8a16 16 0 0 0-13.9 24L8 40l8.2-2.1A16 16 0 1 0 24 8Z"/><path d="M17 22h14M17 28h9"/></svg>
+        <div><b>صاحب البيت يرد عليك</b><span>على الواتساب، بنفسه، قبل ما توصل وبعد ما توصل.</span></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 34h36"/><path d="M14 34a10 10 0 0 1 20 0"/><path d="M24 12v6M10 18l4 4M38 18l-4 4"/></svg>
+        <div><b>خروج لين المغرب</b><span>خلّك على السطوح لين الغروب. للحجز المباشر بس.</span></div>
+      </li>
+      <li>
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 26h32a16 16 0 0 1-32 0Z"/><path d="M18 18c0-3 3-3 3-6M27 18c0-3 3-3 3-6"/></svg>
+        <div><b>فطور حجازي على السطوح</b><span>فول وتميس وجبن وشاهي. للحجز المباشر بس.</span></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="house-s" aria-labelledby="house-h">
+  <div class="wrap">
+    <p class="kicker">البيت من جوّا</p>
+    <h2 id="house-h">برّا البلد زحمة.<br>جوّا ظل وهوا.</h2>
+  </div>
+  <ul class="strip" tabindex="0" aria-label="صور البيت">
+    <li><img src="assets/img/dahliz-720.webp" alt="الدهليز: ممر حجري بارد ومجلس على الجنب" width="720" height="964" loading="lazy"><span><b>الدهليز</b>أول ما تدخل: ظل وحجر بارد.</span></li>
+    <li><img src="assets/img/maqad-720.webp" alt="المقعد: مجلس حجازي تحت روشان كبير" width="720" height="964" loading="lazy"><span><b>المقعد</b>هنا نستقبلك ونقهويك.</span></li>
+    <li><img src="assets/img/room-720.webp" alt="ضي الروشان على سرير غرفة البحر" width="720" height="964" loading="lazy"><span><b>غرفة البحر</b>ضي الروشان على السرير.</span></li>
+    <li><img src="assets/img/bath-720.webp" alt="حمّام من النورة والحجر" width="720" height="964" loading="lazy"><span><b>الحمّام</b>نورة وحجر، وشبّاك صغير.</span></li>
+    <li><img src="assets/img/roof-720.webp" alt="السطوح وقت الغروب على أسطح البلد والبحر" width="720" height="964" loading="lazy"><span><b>السطوح</b>الشمس تغيب في البحر قدامك.</span></li>
+    <li><img src="assets/img/breakfast-720.webp" alt="فطور حجازي على السطوح" width="720" height="964" loading="lazy"><span><b>الفطور</b>على السطوح، من ٨ لين ١١.</span></li>
+  </ul>
+</section>
+
+<section class="name-s" aria-labelledby="name-h">
+  <div class="wrap name-in">
+    <img class="name-img" src="assets/img/hanger-720.webp" alt="علّاقة باب على شكل قوس باب البنط مكتوب عليها: الغرفة البحر" width="720" height="964" loading="lazy">
+    <div>
+      <p class="kicker">اسمها معك</p>
+      <h2 id="name-h">من الباب<br>لين المخدة.</h2>
+      <p class="lead">اسم غرفتك على علّاقة الباب، على كرت المفتاح، على المخدة، وعلى شربة المويه في الشبّاك.</p>
+    </div>
+  </div>
+</section>
+
+<section class="where" aria-labelledby="where-h">
+  <div class="wrap">
+    <p class="kicker">وين؟</p>
+    <h2 id="where-h">حارة البحر، جدة البلد.</h2>
+    <p class="lead">٤ دقايق مشي من باب البنط، البوابة اللي كان يوصل منها كل مسافر لجدة من البحر.</p>
+    <a class="btn btn-wa" id="ask" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%B9%D9%86%D8%AF%D9%8A%20%D8%B3%D8%A4%D8%A7%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%BA%D8%B1%D9%81%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7." rel="noopener" target="_blank">اسأل صاحب البيت</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <img src="assets/logo-roshan.svg" alt="البنط" width="120" height="70" class="foot-logo">
+    <p class="foot-note">البنط مشروع تصوّري (Concept) من تصميم نور محمد: الاسم والهوية والتصميم الداخلي والموقع. مو فندق حقيقي، والصور مولّدة بالذكاء الاصطناعي، ورسايل الحجز توصل لنور كتجربة.</p>
+    <p class="foot-note" lang="en" dir="ltr">Al Bunt is a self-initiated concept by Nour Mohamed (NM*): name, identity, interior and this site. Not a real hotel; images are AI-generated; booking messages reach Nour as a demo.</p>
+    <a class="foot-back" href="https://i2mriky.github.io/bio-hub/">← NM* · i2mriky.github.io/bio-hub</a>
+  </div>
+</footer>
+
+<nav class="dock" id="dock" aria-label="حجز سريع">
+  <a class="btn btn-ghost" href="#rooms">الغرف</a>
+  <a class="btn btn-wa" id="dock-wa" href="https://wa.me/201143650240?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%0A%D8%B9%D9%86%D8%AF%D9%8A%20%D8%B3%D8%A4%D8%A7%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%BA%D8%B1%D9%81%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A8%D9%86%D8%B7." rel="noopener" target="_blank">اسأل صاحب البيت</a>
+</nav>
+
+<script src="assets/app.js?v=1" defer></script>
+</body>
+</html>
